@@ -13,11 +13,20 @@ Ubuntu Kylin 14.04
 
 在终端进入项目目录，输入:
 
-    > make            -- 编译程序
+$ make            -- 编译程序
 
-    > ./main          -- 运行程序
+$ ./main          -- 运行程序
 
-    > ./main test     -- 计算决策树的准确率
+$ ./main test     -- 计算决策树的准确率
+
+
+##输入输出说明
+
+data/dataset.txt         -- 决策树的数据集合，前100条记录用于训练模型，后面的数据用于预测并验证
+
+data/correctResult.txt   -- 数据的真实结果
+
+data/predictions.txt     -- 决策树的预测结果
 
 
 ##数据集描述
